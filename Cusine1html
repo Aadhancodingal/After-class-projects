@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width">
    <link href="style.css" rel="stylesheet" type="text/css">
    <style>
-    header{background-color:blue}
-   #cuisine{background-color: yellow;}
+    header{background-color:blue;
+    font-family: 'Courier New', Courier, monospace;}
+    #cuisine h2{background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;}
+    #cuisine p{background-color: red;
+    font-family: Arial, Helvetica, sans-serif;}
+    footer{background-color: azure;}
    </style>
     </head>
   <header>
