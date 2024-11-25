@@ -1,0 +1,72 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=display-width">
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<style>
+#section1
+{padding-top: 50px; height: 500px; color: white; background-color: orange;}
+#section2
+{padding-top: 50px; height: 500px; color: green; background-color: white;} 
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="myCarousel" class="carousel-slide" data-ride="carousel">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                     data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                   <a class="navbar-brand" href="#">Codingal</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav">
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+               </ul> 
+            </div>
+        </nav>
+        <ol class="carousel-indicaters">
+           <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#mycarousel" data-slide-to="1"></li>
+           <li data-target="#mycarousel" data-slide-to="2"></li> 
+        </ol>
+       </div>
+       <div class="carousel-inner">
+           <div class="item-active">
+               <img src="img1.jpg" alt="img1">
+           </div>
+           <div class="item">
+               <img src="img2.jpg" alt="img2">
+           </div>
+           <div class="item">
+               <img src="img3.jpg" alt="img3">
+           </div>
+       </div>
+       <a class="left carousel-control" href="" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left"></span>  
+       <span class="sr-only">Previous</span>
+       </a>
+       <a class="right carousel-control" href="#mycarousel" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-right"></span>  
+           <span class="sr-only">Next</span>
+           <div id="section1" class="container-fluid">
+            <h1>Penguins</h1>
+            <p> Penguins are a group of aquatic flightless birds from the family Spheniscidae 
+                of the order Sphenisciformes . They live almost exclusively in the Southern Hemisphere:
+                 only one species, the Galápagos penguin, is found north of the Equator.</p>
+            </div>
+            <div id="section2" class="container">
+                <p>They spend about half of their lives on land and the other half in the sea.</p>
+
+            </div>
