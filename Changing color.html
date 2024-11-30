@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <title>Changing color</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .text{
+           color: black; 
+        }
+    </style>
+    <body>
+        <p class="text">Hello I am aadhan of class v-b</p>
+        <button onclick="colorchange()">Watch  the color change</button>
+        <script>
+            let text = document.querySelector('.text')
+            function colorchange() {
+                text.style.color= "green"
+            }
+        </script>
+    </body>
+</html>
