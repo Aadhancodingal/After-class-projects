@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <style>
+           nav{
+            background-color: orange;
+            text-align: left;
+           }
+           nav a{
+            color: green;
+            padding: 10px;
+           }
+           body{
+            text-align: center;
+           }
+           p{
+            color: orange;
+           }
+           ul{
+            list-style-type: none;
+            overflow: hidden;
+           }
+           li{
+      float: left;
+      padding: 3px;
+    }
+        </style>
+    </head>
+    <body>
+        <nav>
+           <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+           </ul> 
+        </nav>
+        <div id="speech"><p>Hello I am Aadhan of class 5, Today i am going to talk about coding. 
+            Coding is a skill that we use to learn to make apps and websites.
+            There are lots of classes and websites to learn coding.
+            Scratch, an app is used to learn coding and play with sprites.
+            But Remember, 60% of STEM appilicable jobs need coding.
+            So Remember that coding is a important skill. Thank You
+        </p>
+        <button onclick="shorter()">Short Form</button>
+        <script>
+            function shorter() {
+               document.getElementById('speech').innerHTML="Hello I am Aadhan of class 5, Today i am going to talk about coding.Coding is a skill that we use to learn to make apps and websites.Scratch, an app is used to learn coding and play with sprites. So Remember that coding is a important skill. Thank You"
+            }
+        </script>
+    </body>
+</html> 
