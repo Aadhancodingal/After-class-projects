@@ -18,16 +18,16 @@
 carousel();
 function carousel() {
 var i;
-var pic = document.getElementsByClassName("mySlide"); // Use the correct variable name here.
+var pic = document.getElementsByClassName("mySlide"); 
 for (i = 0; i < pic.length; i++) {
-pic[i].style.display = "none"; // Ensure you're using `pic` instead of `x`.
+pic[i].style.display = "none"; 
 }
 myIndex++;
 if (myIndex > pic.length) {
-myIndex = 1; // Reset index to 1 when it exceeds the number of images.
+myIndex = 1; 
 }
-pic[myIndex - 1].style.display = "block"; // Show the current image.
-setTimeout(carousel, 3000); // Call the function again after 3 seconds.
+pic[myIndex - 1].style.display = "block";
+setTimeout(carousel, 3000); 
 } 
         </script>
     </body>
