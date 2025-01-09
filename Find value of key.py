@@ -10,9 +10,9 @@ elif(key == "D","d"):
  print(key_dict["D"])
 elif(key == "E","e"):
  print(key_dict["E"])
-elif(key == "F","b"):
+elif(key == "F","f"):
  print(key_dict["F"])
-elif(key == "G","b"):
+elif(key == "G","g"):
  print(key_dict["G"])
 elif(key == "H","h"):
  print(key_dict["H"])
